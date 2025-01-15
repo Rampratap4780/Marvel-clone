@@ -1,0 +1,431 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+}
+.header1{
+    /* position: fixed; */
+   
+}
+/* .iiii{
+    padding-top: 120px;
+} */
+.main{
+    height: 50px;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    align-items: center;
+   
+}
+
+.brr{
+    height: 50px;
+    width: 10vw;
+    border: 1px solid gray;
+}
+.arr{
+    height: 50px;
+    width: 10vw;
+    border: 1px solid gray;
+}
+.img1{
+    height: 20px;
+}
+.bt1{
+    height: 15px;
+    background-color: rgb(24, 24, 24);
+    font-size: 11px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.join{
+    height: 50px;
+    width:14vw ;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    height: 50px;
+    width:44vw ;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+   
+}
+.search{
+    height: 50px;
+    width: 8vw;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.sub{
+    height: 50px;
+    width:14vw ;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 5px;
+    padding-left: 7px;
+}
+.main2{
+    height: 40px;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.bt2{
+    color: white;
+    background-color: rgb(24, 24, 24);
+    border: none;
+    padding-right: 25px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.main3{
+    height: 40px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aa{
+   color: white;
+   font-size: 15px;
+   text-decoration: none;
+    
+}
+.im3{
+    height: 30px;
+    padding-left: 20px;
+}
+.image{
+  
+    background-image: url(./image/maravl.webp);
+    width: 100vw;
+    height: 50rem;
+    background-size: cover;
+    
+   
+}
+.diver{
+    height: 350px;
+    width: 80vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    background-color : white;
+    transition: transform 0.3s ease-in-out;
+}
+.main4{
+    display: flex;
+    justify-content: center;
+    
+ 
+
+   
+}
+.diver:hover{
+    transform: translateY(-35px);
+}
+.card{
+    height: 19rem;
+    width: 10.5rem;
+    background-color: white;
+    box-shadow: 0px 0px 7px 6px black;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+ 
+}
+.card:hover{
+    transform: translateY(-15px);
+}
+.cardimg{
+    height: 250px;
+    background-size: cover;
+}
+.card h2{
+    font-size: 13px;
+    font-weight: bold;
+}
+.card p{
+    font-size: 10px;
+    font-weight: bold;
+    color: gray;
+}
+.main5{
+    border-radius: 12px;
+    height: 32rem;
+    margin-top: 50px;
+}
+.main5img{
+    height:32rem ;
+    width: 100%;
+    background-size: cover;
+  
+ 
+}
+.bt2:hover{
+    text-decoration-line: underline;
+    text-decoration-color: rgb(185, 39, 39);
+    text-decoration-style: solid;
+    text-decoration-thickness: 4px;
+    padding-bottom: 10px;
+    
+}
+.card2{
+    width: 80%;
+    height: 250px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.bb{
+        font-size: 15px;
+        text-decoration: none;
+        color:black;
+        font-weight: bolder;
+        text-align: justify;
+}
+.bb:hover{
+    color: rgb(117, 11, 11);
+}
+.h2{
+    color:gray;
+    font-size: small;
+    text-transform: uppercase;
+    
+}
+.card3{
+    width: 290px;
+    
+}
+.card2img:hover{
+   filter: brightness(80%);
+   cursor: pointer;
+}
+.main61{
+    display: flex;
+    justify-content: center;
+}
+.main6img{
+    padding-left: 160px;
+}
+.car4{
+   width: 80%;
+   height: 800px;
+   background-color: blueviolet;
+   display: flex;
+   flex-wrap: wrap;
+  
+}
+
+.card41img{
+    width: 210px;
+    height: 250px;
+    
+}
+.card41{
+    width: 210px;
+    height: 270px;
+    background-color: aqua;
+
+}
+
+.card71{
+    width: 198px;
+
+}
+
+.card71img{
+    height: 300px;
+    width: 198px;
+    background-size: cover;
+}
+.card71img:hover{
+    filter: brightness(80%);
+}
+.card71{
+    
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+ 
+}
+.card71:hover{
+    transform: translateY(-15px);
+
+}
+.main7{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+   
+}
+.main71{
+    max-width: 80vw;
+ 
+
+}
+.card7{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    column-gap: 1rem;
+    row-gap: 2rem;
+}
+
+.main61img{
+    grid-column: 1/7;
+}
+
+.up{
+    width: 100vw;
+    height:44wh;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+}
+.down{
+    width: 100vw;
+    height: 44vh;
+    background-color:black;
+}
+.left{
+    width: 100vw;
+    height: 44vh;
+    display: flex;
+}
+.leftblack{
+
+    width: 10vw;
+    background-color: rgb(24, 24, 24);
+}
+
+.leftimg{
+    width: 40vw;
+    height: 44vh;
+    background-size: cover;
+    filter: brightness(80%);
+ 
+    
+}
+.rigth{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.rih2{
+    color:  #a10b0b;
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+}
+.rip{
+    color: white;
+    font-size: 2rem;
+}
+.rip2{
+    color: white;
+}
+.squeeze-btn {
+    background-color: #a10b0b;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  
+}
+.ancor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.aaaa{
+    padding-right: 1rem;
+}
+.rigthds{
+    height: 6rem;
+    width: 7rem;
+}
+.down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lower{
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.uper{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 2rem;
+}
+.rigth3{
+    display: flex;
+    gap: 1rem;
+}
+
+.dimg{
+    height: 2rem;
+    width: 3em;
+}
+.rigth4{
+    display: flex;
+    gap: 1rem;
+}
+.ul{
+    display: grid;
+    grid-template-columns: repeat(4,1rem);
+    gap: .8rem;
+}
+@media (min-width:0px) and (max-width:800px){
+    .diver{
+       
+        width: 80vw;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        height: 25rem;
+        width: 15.5rem;
+        margin-bottom: 3rem;
+        box-shadow: 0px 0px 7px 6px black;
+        transition: transform 0.3s ease-in-out;
+        cursor: pointer;
+        
+       
+     
+    }
+    .cardimg{
+        width:15.5rem ;
+        height: 21rem;
+        background-size: cover;
+        padding-bottom: 1rem;
+       
+    }
+    .main4{
+        height: 168rem;
+    }
+}
+
+  
+  
